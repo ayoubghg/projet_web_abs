@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #141e30, #2a6c56);
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.for_m {
+    text-align: center;
+}
+
+button[type="submit"] {
+    background-color: #141e30;
+    color: #03f484;
+    border: none;
+    width: 150px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+button[type="submit"]:hover {
+    background-color: #101828;
+    box-shadow: 0 0 10px #03f484, 0 0 10px #03f484, 0 0 10px #03f484;
+}

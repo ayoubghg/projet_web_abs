@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="etu.css">
+    <title>marker absence</title>
+</head>
+
+<body>
+    <div class="login-box">
+        <form action="etu.php" onsubmit="return valid()" method="post">
+            <div class="user-box"><input id="id" type="text" name="id" required>
+                <label>id</label>
+            </div>
+            <div class="user-box">
+                <input id="code" type="number" name="code" required>
+                <label>code</label>
+            </div>
+            <div class="user-box"><input id="seance" type="number" name="seance" required>
+                <label>seance</label>
+            </div>
+            <button type="submit">submit</button>
+        </form>
+    </div>
+
+    <script src="etu.js"></script>
+</body>
+
+</html>
